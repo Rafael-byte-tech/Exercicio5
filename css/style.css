@@ -1,0 +1,45 @@
+html
+{
+    margin: 1rem;       /* Shorthand property */
+    font-size: 62.5%    /* Recalcula o tamanho base o rem para 10px. (16px -> 100%, 10px -> 62.5%) */
+}
+
+body
+{
+    background-color: #88ebe9;
+}
+
+table
+{
+    border: 0.5rem solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed; /* Torna a tabela responsiva. A largura da célula respeita a largura (width) da tabela. O algoritmo distribui o tamanho proporcionalmente entre as colunas. Se não há uma largura cofigurada, a largura de cada coluna será de acordo com a linha mais larga. */
+}
+
+table caption
+{
+    font-size: 2rem;
+    margin: .5rem 0 .75rem;
+}
+
+table tr
+{
+    background-color: #f8f8f8;
+    border: 0.5rem solid #ddd;
+    padding: 0.35rem;
+}
+
+table th, td
+{
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+table th
+{
+    letter-spacing: 0.1rem;
+}
